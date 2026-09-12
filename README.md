@@ -248,6 +248,29 @@ The program will:
 
 An internet connection is required because `recognize_google()` uses Google's online speech recognition service.
 
+## Error Handling
+
+The current version of the project assumes that the audio can be successfully recognized.
+
+The `SpeechRecognition` library can raise exceptions when:
+
+* The speech cannot be understood.
+* The Google service cannot be reached.
+* The audio format is not supported.
+* The input audio contains too much noise.
+
+These cases can be handled using exceptions such as:
+
+```python
+sr.UnknownValueError
+```
+
+and:
+
+```python
+sr.RequestError
+```
+
 
 
 ## Contributing
