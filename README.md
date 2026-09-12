@@ -115,7 +115,7 @@ For example:
 
 ```text
 Recognized Text:
-سلام، این یک تست تشخیص صدا است.
+سلام، این یک تست می کنیم 1 2 3 تشخیص صدا است.
 ```
 
 The exact output depends on the content and quality of the input audio.
