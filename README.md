@@ -271,7 +271,18 @@ and:
 sr.RequestError
 ```
 
+## Future Improvements
 
+* 🎤 Add real-time microphone speech recognition
+* 🌍 Support multiple languages
+* 🔇 Add noise reduction
+* 🎚️ Improve audio preprocessing
+* ⏱️ Add real-time transcription
+* 💾 Save recognized text to a file
+* 📝 Create a graphical user interface
+* 🔄 Process multiple audio files
+* 📊 Compare recognition accuracy for different audio qualities
+* 🛡️ Add complete exception handling
 
 ## Contributing
 
