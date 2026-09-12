@@ -239,6 +239,16 @@ The program will:
 6. Convert the speech into text.
 7. Print the recognized text.
 
+## Requirements
+
+* Python 3
+* Internet connection
+* A `.wav` audio file
+* `SpeechRecognition` library
+
+An internet connection is required because `recognize_google()` uses Google's online speech recognition service.
+
+
 
 ## Contributing
 
