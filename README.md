@@ -183,7 +183,8 @@ print(text)
 Speech-Recognition/
 │
 ├── tf.wav
-├── Speech_Recognition.py
+├── Farsi_Speech_Recognition.py
+├── speech recognition.ipynb
 ├── requirements.txt
 ├── LICENSE
 └── README.md
