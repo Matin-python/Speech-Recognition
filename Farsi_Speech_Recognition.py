@@ -2,7 +2,7 @@ import speech_recognition as sr
 
 r = sr.Recognizer()
 
-voice = sr.AudioFile("tf.wav")
+voice = sr.AudioFile("test.wav")
 with voice as source:
     audio = r.record(source)
 print(audio)
