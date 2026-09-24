@@ -31,7 +31,7 @@ The project is currently configured to recognize **Persian (Iranian)** speech us
 The program uses a WAV audio file as its input:
 
 ```text
-tf.wav
+test.wav
 ```
 
 The audio file contains the speech that will be converted into text.
@@ -80,7 +80,7 @@ r = sr.Recognizer()
 The WAV file is then loaded:
 
 ```python
-voice = sr.AudioFile("tf.wav")
+voice = sr.AudioFile("test.wav")
 ```
 
 The audio data is recorded from the file:
@@ -127,7 +127,7 @@ import speech_recognition as sr
 
 r = sr.Recognizer()
 
-voice = sr.AudioFile("tf.wav")
+voice = sr.AudioFile("test.wav")
 
 with voice as source:
     audio = r.record(source)
@@ -162,7 +162,7 @@ import speech_recognition as sr
 
 r = sr.Recognizer()
 
-voice = sr.AudioFile("tf.wav")
+voice = sr.AudioFile("test.wav")
 
 with voice as source:
     audio = r.record(source)
@@ -182,7 +182,7 @@ print(text)
 ```text
 Speech-Recognition/
 │
-├── tf.wav
+├── test.wav
 ├── Farsi_Speech_Recognition.py
 ├── speech recognition.ipynb
 ├── requirements.txt
@@ -221,7 +221,7 @@ pip install -r requirements.txt
 Make sure the audio file is located in the project directory:
 
 ```text
-tf.wav
+test.wav
 ```
 
 Then run the Python script:
